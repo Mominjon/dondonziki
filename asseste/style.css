@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to right, rgb(3, 3, 65), rgb(8, 4, 63));
+    color: aliceblue;
+}
+.hisob-kitob {
+    display: flex;
+    margin-top: 40px;
+}
+.copm {
+    margin-left: 800px;
+}
+.oyin-vaqti {
+
+    width: 800px;
+    height: 450px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.muntarija {
+
+    width: 500px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.user-select {
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+.compyuter-select {
+    width: 250px;
+    height: 250px;
+    margin-left: 150px;
+ 
+    margin-top: 30px;
+
+}
+
+.rock {
+    background-color: chartreuse;
+    margin-left: 25px;
+    width: 100px;
+    padding: 10px 15px;
+}
+.toshcampyuter {
+    display: none;
+    animation: anime1 1s ease;
+}
+.qaychicampyuter {
+    display: none;
+    animation: anime1 1s ease;
+}
+.qogozcampyuter {
+    display: none;
+    animation: anime1 1s ease;
+}
+.paper {
+   background-color: chartreuse;
+    margin-left: 25px;
+    width: 100px;
+    padding: 10px 15px;
+}
+.Scissors {
+    background-color: chartreuse;
+    margin-left: 25px;
+    width: 100px;
+    padding: 10px 15px;
+}
+.button {
+    margin-left: 400px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.durang {
+    display: none;
+    width: 200px;
+    margin: 0 auto;
+    
+    margin-top: 13px;
+}
+.galaba {
+    display: none;
+    width: 180px;
+    margin: 0 auto;
+
+    margin-top: 13px;
+}
+.yutqazdingiz {
+    display: none;
+    width: 300px;
+    margin: 0 auto;
+
+    margin-top: 13px;
+}
+.tosh {
+    display: none;
+    animation: anime1 1s ease;
+}
+.qaychi {
+    display: none;
+    animation: anime1 1s ease;
+}
+.qogoz {
+    display: none;
+    animation: anime1 1s ease;
+}
+@keyframes anime1 {
+    0% {
+        margin-top: 0;
+    }
+    20% {
+        margin-top: 40px;
+    }
+    40% {
+        margin-top: -40px;
+    }
+    60% {
+        margin-top: 40px;
+    }
+    80% {
+        margin-top: 40;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
